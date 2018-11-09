@@ -3,7 +3,7 @@
 	<a href="https://github.com/Prefinem/react-native-classes"><img src="https://raw.githubusercontent.com/Prefinem/react-native-classes/master/docs/logo.png" alt="react-native-classes" width="200"></a>
 	<br>
 <!--
-https://prefinem.com/simple-icon-generator/#eyJiYWNrZ3JvdW5kQ29sb3IiOiJyZ2IoMjAzLCA1NiwgNTUpIiwiYm9yZGVyQ29sb3IiOiJ3aGl0ZSIsImJvcmRlcldpZHRoIjoiMCIsImV4cG9ydFNpemUiOjUxMiwiZXhwb3J0aW5nIjpmYWxzZSwiZm9udEZhbWlseSI6IkFndWFmaW5hIFNjcmlwdCIsImZvbnRQb3NpdGlvbiI6IjY1IiwiZm9udFNpemUiOiI0MiIsImZvbnRXZWlnaHQiOjYwMCwiaW1hZ2UiOiIiLCJpbWFnZU1hc2siOiIiLCJpbWFnZVNpemUiOjUwLCJzaGFwZSI6ImRpYW1vbmQiLCJ0ZXh0IjoiTi4gTS4ifQ
+https://prefinem.com/simple-icon-generator/#eyJiYWNrZ3JvdW5kQ29sb3IiOiIjMDBhNGQzIiwiYm9yZGVyQ29sb3IiOiIjRkZGRkZGIiwiYm9yZGVyV2lkdGgiOiIwIiwiZXhwb3J0U2l6ZSI6NTEyLCJleHBvcnRpbmciOnRydWUsImZvbnRGYW1pbHkiOiJQZXJtYW5lbnQgTWFya2VyIiwiZm9udFBvc2l0aW9uIjoiNjAiLCJmb250U2l6ZSI6IjM0IiwiZm9udFdlaWdodCI6IjMwMCIsImltYWdlIjoiIiwiaW1hZ2VNYXNrIjoiIiwiaW1hZ2VTaXplIjo1MCwic2hhcGUiOiJzcXVhcmUiLCJ0ZXh0IjoiUiBOIENcbiJ9
 -->
 </h1>
 
