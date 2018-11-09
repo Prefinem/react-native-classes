@@ -1,0 +1,10 @@
+{
+  "name": "react-native-classes",
+  "version": "0.0.1",
+  "description": "Bringing CSS Classes to React Native",
+  "main": "index.js",
+  "repository": "https://github.com/Prefinem/react-native-classes",
+  "author": "William <william@prefinem.com>",
+  "license": "MIT",
+  "private": false
+}
