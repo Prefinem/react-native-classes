@@ -14,7 +14,9 @@
 		"lint-staged": "^7.3.0",
 		"prettier": "^1.14.3"
 	},
-	"files": ["src/"],
+	"files": [
+		"src/"
+	],
 	"husky": {
 		"hooks": {
 			"pre-commit": "yarn staged"
@@ -22,7 +24,11 @@
 	},
 	"license": "MIT",
 	"lint-staged": {
-		"*.js": ["eslint --fix", "prettier --config ./.prettierrc.json --write", "git add"]
+		"*.js": [
+			"eslint --fix",
+			"prettier --config ./.prettierrc.json --write",
+			"git add"
+		]
 	},
 	"main": "src/index.js",
 	"name": "react-native-classes",
@@ -36,5 +42,5 @@
 		"staged": "lint-staged",
 		"start": "node ./index.js"
 	},
-	"version": "0.0.1"
+	"version": "0.1.0"
 }
