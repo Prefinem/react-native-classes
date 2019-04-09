@@ -30,22 +30,45 @@ https://prefinem.com/simple-icon-generator/#eyJiYWNrZ3JvdW5kQ29sb3IiOiIjMDBhNGQz
 [![Install Size](https://flat.badgen.net/packagephobia/install/react-native-classes)](https://packagephobia.now.sh/result?p=react-native-classes)
 [![Publish Size](https://flat.badgen.net/packagephobia/publish/react-native-classes)](https://packagephobia.now.sh/result?p=react-native-classes)
 
-<!-- Travis -->
-
-[![Build Status](https://flat.badgen.net/travis/Prefinem/react-native-classes)](https://travis-ci.com/Prefinem/react-native-classes)
-
-<!-- CodeCov -->
-
-[![Code Coverage](https://flat.badgen.net/codecov/c/github/Prefinem/react-native-classes)](https://codecov.io/gh/Prefinem/react-native-classes)
-
-<!-- CodeClimate -->
-
-[![Technical Debt](https://flat.badgen.net/codeclimate/tech-debt/Prefinem/react-native-classes)](https://codeclimate.com/github/Prefinem/react-native-classes)
-[![Maintainability](https://flat.badgen.net/codeclimate/maintainability/Prefinem/react-native-classes)](https://codeclimate.com/github/Prefinem/react-native-classes)
-[![Coverage](https://flat.badgen.net/codeclimate/coverage/Prefinem/react-native-classes)](https://codeclimate.com/github/Prefinem/react-native-classes)
-
-Bringing CSS Classes to React Native.
+Bringing CSS Like Classes to React Native.
 
 ## Getting Started
 
-Coming Soon
+```js
+import ThemeProvider, { Text, View } from 'react-native-classes';
+import React from 'react';
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+	heading: {
+		color: '#333',
+		fontSize: 20,
+	},
+	main: {
+		backgroundColor: '#EFEFEF',
+		marginVertical: 30,
+		padding: 10,
+	},
+	screen: {
+		marginTop: 35,
+	},
+	'text-bold': {
+		fontWeight: 'bold',
+	},
+});
+
+export default class App extends React.Component {
+	render() {
+		return (
+			<ThemeProvider styles={styles}>
+				<View className="screen">
+					<Text className="text-bold">Open up App.js to start working on your app!</Text>
+					<View className="main">
+						<Text className="heading">Hello World!</Text>
+					</View>
+				</View>
+			</ThemeProvider>
+		);
+	}
+}
+```
