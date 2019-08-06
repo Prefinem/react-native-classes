@@ -13,6 +13,4 @@ const ViewPagerAndroid = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-ViewPagerAndroid.contextType = ThemeContext;
-
 export default ViewPagerAndroid;

@@ -13,6 +13,4 @@ const Picker = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-Picker.contextType = ThemeContext;
-
 export default Picker;

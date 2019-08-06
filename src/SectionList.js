@@ -9,6 +9,4 @@ const SectionList = ({ className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-SectionList.contextType = ThemeContext;
-
 export default SectionList;

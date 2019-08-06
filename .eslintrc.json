@@ -69,6 +69,7 @@
 		"react/jsx-no-bind": "off",
 		"react/jsx-no-literals": "off",
 		"react/jsx-one-expression-per-line": "off",
+		"react/jsx-props-no-spreading": "off",
 		"react/jsx-uses-react": "error",
 		"react/no-array-index-key": "off",
 		"react/no-set-state": "off",

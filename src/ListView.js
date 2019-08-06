@@ -9,6 +9,4 @@ const ListView = ({ className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-ListView.contextType = ThemeContext;
-
 export default ListView;

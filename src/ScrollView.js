@@ -13,6 +13,4 @@ const ScrollView = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-ScrollView.contextType = ThemeContext;
-
 export default ScrollView;

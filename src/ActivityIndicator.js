@@ -13,6 +13,4 @@ const ActivityIndicator = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-ActivityIndicator.contextType = ThemeContext;
-
 export default ActivityIndicator;

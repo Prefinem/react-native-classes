@@ -13,6 +13,4 @@ const SegmentedControlIOS = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-SegmentedControlIOS.contextType = ThemeContext;
-
 export default SegmentedControlIOS;

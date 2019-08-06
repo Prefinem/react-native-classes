@@ -13,6 +13,4 @@ const VirtualizedList = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-VirtualizedList.contextType = ThemeContext;
-
 export default VirtualizedList;

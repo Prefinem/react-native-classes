@@ -13,6 +13,4 @@ const Button = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-Button.contextType = ThemeContext;
-
 export default Button;

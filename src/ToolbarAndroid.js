@@ -13,6 +13,4 @@ const ToolbarAndroid = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-ToolbarAndroid.contextType = ThemeContext;
-
 export default ToolbarAndroid;

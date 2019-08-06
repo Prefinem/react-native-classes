@@ -13,6 +13,4 @@ const NavigatorIOS = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-NavigatorIOS.contextType = ThemeContext;
-
 export default NavigatorIOS;

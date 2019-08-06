@@ -13,6 +13,4 @@ const Text = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-Text.contextType = ThemeContext;
-
 export default Text;

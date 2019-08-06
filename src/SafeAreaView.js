@@ -13,6 +13,4 @@ const SafeAreaView = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-SafeAreaView.contextType = ThemeContext;
-
 export default SafeAreaView;

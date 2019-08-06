@@ -13,6 +13,4 @@ const ProgressBarAndroid = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-ProgressBarAndroid.contextType = ThemeContext;
-
 export default ProgressBarAndroid;

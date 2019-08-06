@@ -13,6 +13,4 @@ const DatePickerIOS = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-DatePickerIOS.contextType = ThemeContext;
-
 export default DatePickerIOS;

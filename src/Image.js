@@ -13,6 +13,4 @@ const Image = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-Image.contextType = ThemeContext;
-
 export default Image;

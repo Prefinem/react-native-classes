@@ -13,6 +13,4 @@ const InputAccessoryView = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-InputAccessoryView.contextType = ThemeContext;
-
 export default InputAccessoryView;

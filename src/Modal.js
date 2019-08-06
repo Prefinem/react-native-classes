@@ -13,6 +13,4 @@ const Modal = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-Modal.contextType = ThemeContext;
-
 export default Modal;

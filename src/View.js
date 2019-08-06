@@ -13,6 +13,4 @@ const View = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-View.contextType = ThemeContext;
-
 export default View;

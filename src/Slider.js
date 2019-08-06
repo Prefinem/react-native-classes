@@ -13,6 +13,4 @@ const Slider = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-Slider.contextType = ThemeContext;
-
 export default Slider;

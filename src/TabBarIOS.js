@@ -13,6 +13,4 @@ const TabBarIOS = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-TabBarIOS.contextType = ThemeContext;
-
 export default TabBarIOS;

@@ -13,6 +13,4 @@ const DrawerLayoutAndroid = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-DrawerLayoutAndroid.contextType = ThemeContext;
-
 export default DrawerLayoutAndroid;

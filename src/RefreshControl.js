@@ -13,6 +13,4 @@ const RefreshControl = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-RefreshControl.contextType = ThemeContext;
-
 export default RefreshControl;

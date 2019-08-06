@@ -13,6 +13,4 @@ const PickerIOS = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-PickerIOS.contextType = ThemeContext;
-
 export default PickerIOS;

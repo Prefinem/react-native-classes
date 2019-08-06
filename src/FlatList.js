@@ -9,6 +9,4 @@ const FlatList = ({ className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-FlatList.contextType = ThemeContext;
-
 export default FlatList;

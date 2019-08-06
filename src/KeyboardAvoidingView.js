@@ -13,6 +13,4 @@ const KeyboardAvoidingView = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-KeyboardAvoidingView.contextType = ThemeContext;
-
 export default KeyboardAvoidingView;

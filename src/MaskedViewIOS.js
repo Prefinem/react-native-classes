@@ -13,6 +13,4 @@ const MaskedViewIOS = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-MaskedViewIOS.contextType = ThemeContext;
-
 export default MaskedViewIOS;

@@ -13,6 +13,4 @@ const ProgressViewIOS = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-ProgressViewIOS.contextType = ThemeContext;
-
 export default ProgressViewIOS;

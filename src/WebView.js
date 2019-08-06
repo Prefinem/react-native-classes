@@ -13,6 +13,4 @@ const WebView = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-WebView.contextType = ThemeContext;
-
 export default WebView;

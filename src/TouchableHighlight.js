@@ -13,6 +13,4 @@ const TouchableHighlight = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-TouchableHighlight.contextType = ThemeContext;
-
 export default TouchableHighlight;

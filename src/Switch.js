@@ -13,6 +13,4 @@ const Switch = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-Switch.contextType = ThemeContext;
-
 export default Switch;

@@ -13,6 +13,4 @@ const StatusBar = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-StatusBar.contextType = ThemeContext;
-
 export default StatusBar;

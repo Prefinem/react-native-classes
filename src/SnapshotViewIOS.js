@@ -13,6 +13,4 @@ const SnapshotViewIOS = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-SnapshotViewIOS.contextType = ThemeContext;
-
 export default SnapshotViewIOS;

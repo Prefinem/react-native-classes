@@ -13,6 +13,4 @@ const TextInput = ({ children, className, style, ...props }) => (
 	</ThemeContext.Consumer>
 );
 
-TextInput.contextType = ThemeContext;
-
 export default TextInput;
