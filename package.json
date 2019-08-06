@@ -2,14 +2,15 @@
 	"author": "William <william@prefinem.com>",
 	"description": "Bringing CSS Like Classes to React Native",
 	"devDependencies": {
-		"babel-eslint": "^10.0.1",
-		"eslint": "^5.6.1",
-		"eslint-config-prettier": "^3.1.0",
+		"babel-eslint": "^10.0.2",
+		"babel-preset-expo": "^6.0.0",
+		"eslint": "^6.1.0",
+		"eslint-config-prettier": "^6.0.0",
 		"eslint-plugin-babel": "^5.3.0",
-		"eslint-plugin-react": "^7.11.1",
-		"husky": "^1.1.3",
-		"lint-staged": "^7.3.0",
-		"prettier": "^1.14.3"
+		"eslint-plugin-react": "^7.14.3",
+		"husky": "^3.0.2",
+		"lint-staged": "^9.2.1",
+		"prettier": "^1.18.2"
 	},
 	"files": [
 		"src/"
@@ -44,7 +45,6 @@
 		"clean": "yarn lint && yarn prettify",
 		"lint": "eslint src/",
 		"prettify": "prettier --config ./.prettierrc.json --write \"src/**\"",
-		"reset": "knex migrate:rollback && knex migrate:latest && node import/sources.js",
 		"staged": "lint-staged"
 	},
 	"version": "1.0.0"
