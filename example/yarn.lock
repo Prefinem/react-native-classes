@@ -4150,10 +4150,10 @@ react-native-branch@~3.0.1:
   resolved "https://registry.yarnpkg.com/react-native-branch/-/react-native-branch-3.0.1.tgz#5b07b61cbd290168cd3c3662e017ebe0f356d2ca"
   integrity sha512-vbcYxPZlpF5f39GAEUF8kuGQqCNeD3E6zEdvtOq8oCGZunHXlWlKgAS6dgBKCvsHvXgHuMtpvs39VgOp8DaKig==
 
-react-native-classes@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-native-classes/-/react-native-classes-1.0.0.tgz#4d5a6b377d1052b931cce7776571d6f44147300a"
-  integrity sha512-UijQUQ6vzuOBMx7IXQk9To8Pmww4Gm7bvSZ2vjr8pVT3gplWCwEmIi+LFUciwL67nnLCpYTQ/sAwisRekvRKAw==
+react-native-classes@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-classes/-/react-native-classes-2.0.0.tgz#237c97be8dd2a67fd1f4df1d904b33076c29ed4d"
+  integrity sha512-/2RqyUVESPciuG/on6eASvR2r6Sih8dKUAUuZzCgX6yrkULU9dVwEZXzY/Ej/ZDOp0jIuOELkQoNwmdm8fKfAQ==
 
 react-native-view-shot@2.6.0:
   version "2.6.0"
