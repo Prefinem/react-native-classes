@@ -12,6 +12,9 @@
 	},
 	"main": "node_modules/expo/AppEntry.js",
 	"private": true,
+	"resolutions": {
+		"mem": "4.0.0"
+	},
 	"scripts": {
 		"android": "expo start --android",
 		"eject": "expo eject",
