@@ -2,7 +2,7 @@
 	"author": "William <william@prefinem.com>",
 	"description": "Bringing CSS Like Classes to React Native",
 	"devDependencies": {
-		"babel-eslint": "10.0.2",
+		"babel-eslint": "10.0.3",
 		"babel-preset-expo": "6.0.0",
 		"eslint": "6.1.0",
 		"eslint-config-prettier": "6.0.0",
