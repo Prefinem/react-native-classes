@@ -13,7 +13,7 @@
 	"main": "node_modules/expo/AppEntry.js",
 	"private": true,
 	"resolutions": {
-		"mem": "4.0.0"
+		"mem": "6.0.1"
 	},
 	"scripts": {
 		"android": "expo start --android",
